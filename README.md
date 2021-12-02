@@ -238,4 +238,12 @@ Did it work?
   - Within the first two sub-directories, you should have files corresponding to samples EG01 and EG02. 
   - The code will likely have only progressed as far as the hisat2 step. 
  
+----
 
+## Before class next time!
+ 
+Please install a few more software packages:
+ 
+[Install #2](https://rna.colostate.edu/2021/doku.php?id=wiki:rnaseq_intall2)
+ 
+Thanks!
