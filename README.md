@@ -48,7 +48,7 @@ $ cd ..
 ```
 
 ----
-## The RNAseqAnalyzer Script 
+## Let's explore the RNAseqAnalyzer Script 
 
 
 The **RNAseq_analyzer_211202.sh** script contains our pipeline. 
@@ -76,7 +76,7 @@ This will take a metadata file as input and loop over the content within that me
 Now, we COULD execute the RNA_seq analyzer pipeline that way, but there would be two problems with that. One, it would fail to use slurm, so we would overload the system. Instead, we need to execute this script using sbatch. We'll do that using a short mini-script called the execute program.
 
 ----
-## The Execute script 
+## Let's explore the Execute script 
 
 The **execute_RNAseq_pipeline.sbatch** script will be used to submit the analyze script to the **job batch manager** called **SLURM**. This will put your analyze script in the queue and specify how it should be run on the supercomputer system.
 
