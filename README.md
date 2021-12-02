@@ -73,7 +73,7 @@ $ bash RNAseq_analyzer_211202.sh ../01_input/metadatafile.txt
 
 This will take a metadata file as input and loop over the content within that metadata file. It will pull the names of the .fastq file names to process from the first and second column of the metadata file and start processing them one at a time. It will name them by the 'short nickname' in the third column.
 
-Now, we COULD execute the RNA_seq analyzer pipeline that way, but there would be two problems with that. One, it would fail to use slurm, so we would overload the system. Instead, we need to execute this script using sbatch. We'll do that using a short mini-script called the execute program.
+Now, we COULD execute the RNA_seq analyzer pipeline that way, but there is a problem with that. It would fail to use slurm, so we would overload the system. Instead, we need to execute this script using sbatch. We'll do that using a short mini-script called the execute program.
 
 ----
 ## Let's explore the Execute script 
