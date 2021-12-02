@@ -185,7 +185,7 @@ tester_SRR5832183_1.fastq	tester_SRR5832183_2.fastq	EG02	01_Ecoli_15_1	Ecoli	15	
   - Next, we'll navigate over to our scripts directory.
   - Navigate to the scripts directory in the terminal.
   - Navigate to the scripts directory in your file structure navigation panel.
-  - Open the **execute_RNAseq_pipeline.sbatch script in a text editor window.
+  - Open the **execute_RNAseq_pipeline.sbatch** script in a text editor window.
   - Add your e-mail if you'd like to receive e-mail updates when your job completes
   - Most importantly, replace <metadatafile> with a path to your tester metadata file. 
   - Mine looks like:
