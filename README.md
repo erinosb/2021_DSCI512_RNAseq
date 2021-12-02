@@ -135,5 +135,42 @@ bash RNAseq_analyzer_211202.sh <metadatafile>  $SLURM_NTASKS
 $ sbatch execute_RNAseq_pipeline.sbatch
 ```
 
+----
+## In Class Exercise - modify and run your pipeline
+ 
+Let's try this out. Follow along to test the scripts. Here's the plan...
+ 
+1. Ensure you have some tester fastq files already generated in your 01_input folder
+2. Make a short test_metadata.txt file that will instruct our script to run on our tester fastq files only.
+3. Modify the **execute** script
+4. Modify the **analyzer** script
+5. Run the scripts
 
+1. Ensure you have some tester fastq files already generated in your 01_input folder
+
+Let's make sure you have two tester .fastq files. These are files we made last time by subsetting the larger files.
+ 
+```bash
+# Navigate to the input directory (using cd ../01_input)
+$ pwd
+~/01_input
+
+# check you have some tester files
+$ ls tester*.fastq
+tester_SRR5832182_1.fastq
+tester_SRR5832182_2.fastq
+tester_SRR5832183_1.fastq
+tester_SRR5832183_2.fastq
+```
+
+:warning: if you don't have those files, copy the lines of code from [Preprocessing and Quality Control] (https://rna.colostate.edu/2021/doku.php?id=wiki:preprocessingqc2) that start with the head command. 
+ 
+ 
+ 
+2. Make a short test_metadata.txt file that will instruct our script to run on our tester fastq files only.
+3. Modify the **execute** script
+4. Modify the **analyzer** script
+5. Run the scripts
+
+ 
 
