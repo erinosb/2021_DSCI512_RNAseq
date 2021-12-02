@@ -46,3 +46,24 @@ $ cp RNAseq_analyzer_211202.sh ..
 $ cp execute_RNAseq_pipeline.sbatch ..
 $ cd ..
 ```
+
+----
+## The RNAseqAnalyzer Script 
+
+
+The **RNAseq_analyzer_211202.sh** script contains our pipeline. 
+
+Let's briefly peek into it and see that it contains. 
+  * Open **RNAseq_analyzer_211202.sh** in an editor window. You'll notice the following sections.
+
+**The pipeline**
+  * A shebang
+  * A long comment section with documentation on its use
+  * MODIFY THIS SECTION - *you will tailor this section to each job*
+  * BEGIN CODE - *the code starts and reports how it is running*
+  * META DATA - *this part pulls information out of the metadata file to create bash arrays*
+  * PIPELINE - *right now this contains a for loop that will execute fastp. We will add onto this section each class*
+  * VERSIONS - *this prints out the versions of software used for your future methods section*
+
+
+  
