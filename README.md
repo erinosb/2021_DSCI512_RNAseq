@@ -149,7 +149,7 @@ Let's try this out. Follow along to test the scripts. Here's the plan...
 ----
  
 
-1. Ensure you have some tester fastq files already generated in your 01_input folder
+### 1. Ensure you have some tester fastq files already generated in your 01_input folder
 
 Let's make sure you have two tester .fastq files. These are files we made last time by subsetting the larger files.
  
@@ -170,8 +170,16 @@ tester_SRR5832183_2.fastq
  
  
  
-2. Make a short test_metadata.txt file that will instruct our script to run on our tester fastq files only.
-3. Modify the **execute** script
+### 2. Make a short test_metadata.txt file that will instruct our script to run on our tester fastq files only
+ 
+Within your 01_input directory, make a quick test_metadata.txt file by copying and pasting the following content into a new file:
+ 
+```
+tester_SRR5832182_1.fastq	tester_SRR5832182_2.fastq	EG01	01_Ecoli_15_1	Ecoli	15	1
+tester_SRR5832183_1.fastq	tester_SRR5832183_2.fastq	EG02	01_Ecoli_15_1	Ecoli	15	2 
+ ```
+ 
+### 3. Modify the **execute** script
 4. Modify the **analyzer** script
 5. Run the scripts
 
