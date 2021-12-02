@@ -194,8 +194,27 @@ tester_SRR5832183_1.fastq	tester_SRR5832183_2.fastq	EG02	01_Ecoli_15_1	Ecoli	15	
  bash RNAseq_analyzer_211202.sh ../01_input/test_metadata.txt  $SLURM_NTASKS
 ```
  
-4. Modify the **analyzer** script
-5. Run the scripts
+### 4. Modify the **analyzer** script
+
+  - Awesome!
+  - Next, we'll modify the script **RNAseq_analyzer_211202.sh**
+  - Open the **RNAseq_analyzer_211202.sh** in a text editor window.
+  - Within the MODIFY THIS SECTION part of the code, replace <yourinputdir> with a path to your input directory. 
+  - Within the MODIFY THIS SECTION part of the code, replace <hisatpath/prefix> with the path to your hisat2 indexes and the prefix for your hisat2 indexes.
+  - Mine ended up looking like:
+
+```bash
+ 
+#The input samples live in directory:
+inputdir="../01_input"
+
+#Metadata file. This pulls the metadata path and file from the command line
+metadata=$1
+
+#This is where the ht2 files live:
+hisat2path="../../PROJ02_ce11Build/ce11"
+
+```
 
  
 
