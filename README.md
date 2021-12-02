@@ -216,5 +216,19 @@ hisat2path="../../PROJ02_ce11Build/ce11"
 
 ```
 
+ ### 5. Run the scripts
+ 
+   - Simply run the scripts by executing:
+
+```bash
+$ sbatch execute_RNAseq_pipeline.sbatch
+```
+ 
+   - Check on your script using:
+
+```bash
+$ squeue -u $USER
+$ more log_RNAseq_pipe*
+```
  
 
