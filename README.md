@@ -230,5 +230,12 @@ $ sbatch execute_RNAseq_pipeline.sbatch
 $ squeue -u $USER
 $ more log_RNAseq_pipe*
 ```
+
+Did it work?
+
+  - If it worked, you should have a directory in your output file labeled with today's date.
+  - Within that output directory, you should have folders for different steps of the pipeline `01_fastp`, `02_hisat2`, etc. 
+  - Within the first two sub-directories, you should have files corresponding to samples EG01 and EG02. 
+  - The code will likely have only progressed as far as the hisat2 step. 
  
 
