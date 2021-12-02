@@ -145,6 +145,9 @@ Let's try this out. Follow along to test the scripts. Here's the plan...
 3. Modify the **execute** script
 4. Modify the **analyzer** script
 5. Run the scripts
+ 
+----
+ 
 
 1. Ensure you have some tester fastq files already generated in your 01_input folder
 
@@ -163,7 +166,7 @@ tester_SRR5832183_1.fastq
 tester_SRR5832183_2.fastq
 ```
 
-:warning: if you don't have those files, copy the lines of code from [Preprocessing and Quality Control] (https://rna.colostate.edu/2021/doku.php?id=wiki:preprocessingqc2) that start with the head command. 
+:warning: **WARNING** if you don't have those files, copy the lines of code from [Preprocessing and Quality Control](https://rna.colostate.edu/2021/doku.php?id=wiki:preprocessingqc2) that start with the head command. 
  
  
  
