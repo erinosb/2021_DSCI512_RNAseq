@@ -95,7 +95,7 @@ By doing this, the **execute** script will submit the **analyzer** script to **S
 
 Let's open **execute_RNAseq_pipeline.sbatch** in an editor window and explore how it works. 
 
-``bash
+```bash
 #!/usr/bin/env bash
 
 #SBATCH --job-name=RNAseq_pipeline 
