@@ -30,6 +30,7 @@ You will be able to tailor these templates to your own purposes for future use a
 ```bash
 $ cd /scratch/summit/<eID>@colostate.edu    #Replace <eID> with your EID
 $ cd PROJ01_GomezOrte
+$ cd 02_scripts
 $ git clone <paste path to github repository here>
 ```
 
@@ -40,7 +41,7 @@ Notice that instead of having a single script, you now have a few scripts. These
 Let's copy the two scripts up one directory. This will create duplicate copies for you to edit on and will move the scripts directly into ''02_scripts'', not its sub-directory.
 
 ```bash
-$ cd 2020_DSCI512_RNAseq
+$ cd 2021_DSCI512_RNAseq
 $ cp RNAseq_analyzer_211202.sh ..
 $ cp execute_RNAseq_pipeline.sbatch ..
 $ cd ..
